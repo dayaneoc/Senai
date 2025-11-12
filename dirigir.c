@@ -23,9 +23,6 @@ int main ()
         printf ("\n\t acender_farol()");
         printf ("\n\t ligar_luz_alta()");
 
-        
-        
-
         printf ("\n\t Onde eu estou em relação ao meu destino? ");
         scanf ("%d", &local);
         
@@ -34,13 +31,11 @@ int main ()
                 printf ("\n\t ajuste_percurso: %d \n", local);
                 printf ("\n\t Onde eu estou em relação ao meu destino? ");
                 scanf ("%d", &local);
-            }
-            //printf ("\n\t Você chegou ao seu destino!\n");    
+            }    
         } 
         
         printf ("\n\t Você chegou ao seu destino!\n");
     }
-
 
     return 0;
 }

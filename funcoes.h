@@ -19,6 +19,7 @@
 //void girar_chave();
 void acao_portas();
 //void ajuste_percurso();
-//int avancar_ou_retrair_o_banco(int valor);
+int avancar_ou_retrair_o_banco(int valor);
+int subir_ou_descer_banco (int valor);
 
 #endif
