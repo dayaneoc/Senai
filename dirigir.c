@@ -16,9 +16,9 @@ int main ()
         printf ("\n\t É perto, posso ir caminhando!\n");
     } else {
         acao_portas ();
-
-        printf ("\n\t ajustar_banco()");
-        printf ("\n\t ligar_carro()");
+        ajustar_banco ();
+        ligar_carro ();
+        //printf ("\n\t ligar_carro()");
         printf ("\n\t ajustar_setas()");
         printf ("\n\t acender_farol()");
         printf ("\n\t ligar_luz_alta()");
